@@ -936,6 +936,11 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@types/faker@^5.1.0":
+  version "5.1.0"
+  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@types%2ffaker/-/faker-5.1.0.tgz#72ba5762e0ac00c52c79e08a482962908c4959ff"
+  integrity sha512-7iK+rNvtSmG3FcAgI67BphmQVzBPkI6SCjJqR/SXxGr6tDUoMovkhGYIxNICEfy/trTgiGQL2v1tKPuFEXIrQg==
+
 "@types/prop-types@*":
   version "15.7.3"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@types%2fprop-types/-/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
@@ -960,6 +965,11 @@
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
+
+"@webcomponents/webcomponentsjs@^2.4.4":
+  version "2.4.4"
+  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/@webcomponents%2fwebcomponentsjs/-/webcomponentsjs-2.4.4.tgz#14b7e78da47f8f0071ff96c35335b871534179bc"
+  integrity sha512-UWXZYbaDLLfhm+xONXTiDciyhOSwKRrZieGQHFMSMGSxY4mbjZ5uYzOKgnuX0luYFvjJw32G3r0sCwQZPJIR4Q==
 
 abab@^2.0.0:
   version "2.0.5"
@@ -2298,6 +2308,11 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://verdaccio.deploy.evelin.jsmd-group.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
+
+faker@^5.1.0:
+  version "5.1.0"
+  resolved "https://verdaccio.deploy.evelin.jsmd-group.com/faker/-/faker-5.1.0.tgz#e10fa1dec4502551aee0eb771617a7e7b94692e8"
+  integrity sha512-RrWKFSSA/aNLP0g3o2WW1Zez7/MnMr7xkiZmoCfAGZmdkDQZ6l2KtuXHN5XjdvpRjDl8+3vf+Rrtl06Z352+Mw==
 
 falafel@^2.1.0:
   version "2.2.4"

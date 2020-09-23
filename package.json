@@ -4,17 +4,24 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel demo/index.html",
-    "build": "parcel build src/index.tsx --global MyWidget"
+    "dev": "parcel demo/index.html --out-dir .cache/dist",
+    "build": "parcel build src/index.tsx"
   },
   "devDependencies": {
+    "@types/faker": "^5.1.0",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8",
+    "faker": "^5.1.0",
     "parcel-bundler": "^1.12.4",
     "typescript": "^4.0.3",
-    "@types/react": "^16.9.49",
-    "@types/react-dom": "^16.9.8"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "peerDependencies": {
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.4"
   }
 }
