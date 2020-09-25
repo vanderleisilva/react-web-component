@@ -22,6 +22,10 @@ export class ProductListWebComponent extends HTMLElement {
     this.isRendered = true;
   }
 
+  disconnectedCallback() {
+    ReactDOM.unmountComponentAtNode(this.mountPoint);
+  }
+
   attributeChangedCallback() {
     if (this.isRendered) {
       this.render();
