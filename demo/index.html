@@ -8,10 +8,18 @@
     <script defer src="../src/index.tsx"></script>
   </head>
   <body>
+    <template id="products-list-styles">
+      <style>
+        h1 {
+          background-color: red;
+        }
+      </style>
+    </template>
     <product-list
       title="My products"
       description="List of products"
       amount="20"
+      template-id="products-list-styles"
     ></product-list>
   </body>
 </html>
